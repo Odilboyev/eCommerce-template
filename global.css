@@ -69,3 +69,25 @@ hr{
     font-size: 0.8rem;
     color: goldenrod;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff7f50; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fa7342; 
+  }
